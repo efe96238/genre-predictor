@@ -50,8 +50,8 @@ The notebook will:
 - Batch size: 16
 - Optimizer: Adam (lr=1e-3)
 - Loss: CrossEntropyLoss
-- Epochs: 30
-- Checkpoint: `models/best_model.pth` (best test accuracy)
+- Epochs: 50
+- Checkpoint: `models/final_model.pth`
 
 Note: Ensure the `models/` directory exists before training, or create it in the notebook:
 ```bash
@@ -60,14 +60,14 @@ mkdir -p models
 
 ## Outputs
 - Best model weights:
-  - `models/best_model.pth`
+  - `models/final_model.pth`
 
 ## Inference (inside the notebook)
-After training, the notebook loads `models/best_model.pth` and prints predicted genres with confidences for a test batch.
+After training, the notebook loads `models/final_model.pth` and prints predicted genres with confidences for a test batch.
 
 If you want portability across devices, load with:
 ```python
-state = torch.load("models/best_model.pth", map_location=device)
+state = torch.load("models/final_model.pth", map_location=device)
 model.load_state_dict(state)
 ```
 
