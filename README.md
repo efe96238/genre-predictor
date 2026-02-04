@@ -22,9 +22,14 @@ The app is built with **Electron (Vite + React)** for the UI and a **Python Fast
 4. Click **Predict** to see genre probabilities
 
 ## Notes
+- The CNN is trained with the GTZAN dataset
 - The backend runs locally as part of the app
 - No data is uploaded or sent over the network
 - Older experimental versions are kept in the `old/` folder for reference
 
+## Future Plans
+- Train it with a more accurate, bigger dataset for better results
+
 ## License
 MIT
+
