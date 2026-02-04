@@ -29,7 +29,7 @@ The app is built with **Electron (Vite + React)** for the UI and a **Python Fast
 ## Notes About the Model
 - The CNN is trained with the GTZAN dataset
 - Note that the model might not be very accurate
-- Training and testing accuracy was around 80-85% percent so far, which can be considered good for the GTZAN dataset
+- Training and testing accuracy was around 80-85% so far, which can be considered good for the GTZAN dataset because of its small size and mislabeled tracks
 - I did not create this model for perfect, production quality accuracy but rather learning and research, however I do plan to improve it to that grade at some point
 
 ## Future Plans
@@ -38,5 +38,6 @@ The app is built with **Electron (Vite + React)** for the UI and a **Python Fast
 
 ## License
 MIT
+
 
 
