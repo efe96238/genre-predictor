@@ -36,8 +36,4 @@ The app is built with **Electron (Vite + React)** for the UI and a **Python Fast
 - Train it with a more accurate, bigger dataset for better results
 - Confusion Matrix evaluation
 
-## License
-MIT
-
-
 
